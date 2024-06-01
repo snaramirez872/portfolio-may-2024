@@ -1,8 +1,3 @@
-:root {
-    --profile-img-height: 17vh;
-    --icon-lw: 45px;
-}
-
 #about-content {
     margin: 8vh 7vh 0 7vh;
     display: flex;
@@ -26,18 +21,33 @@
 
 .profile-picture {
     border-radius: 50%;
-    height: var(--profile-img-height);
-    width: calc(var(--profile-img-height) - 1vh);
     margin-bottom: 2vh;
-}
-
-.profile-card .icon {
-    width: var(--icon-lw);
-    height: var(--icon-lw);
 }
 
 .mobile-tabs {
     display: none;
+}
+
+.old-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+}
+
+.old-link a {
+    background-color: #f97316;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1vh 9vh;
+    border-radius: 3vh;
+}
+
+.old-link a:hover {
+    padding: 1vh 3vh;
 }
 
 @media only screen and (max-width: 768px) {
@@ -55,7 +65,7 @@
         justify-content: center;
         margin-top: 8vh;
         margin-bottom: 8vh;
-        gap: 7vh;
+        gap: 3vh;
     }
     .mobile-tabs a {
         background-color: #6ee7b7;
@@ -65,10 +75,9 @@
         font-size: 22px;
     }
     #link-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 8vh;
-    }
-    #link-icons .icon {
-        height: calc(var(--icon-lw) - 10px);
-        width: calc(var(--icon-lw) - 10px);
     }
 }
