@@ -17,8 +17,8 @@ export default function Home() {
         <div id='about-content'>
           <div className='words'>
             <p>I am a <span className='text-[22px] font-semibold text-orange-500'>Software Developer</span> who recently graduated from the New Jersey Institute of Technology. My focuses lie primarily in <span className='text-[22px] font-semibold text-orange-500'>Web Development</span> and general <span className='text-[22px] font-semibold text-orange-500'>Front End Development/Design</span>. As such, I am proficient in <span className='text-[22px] font-semibold text-orange-500'>JavaScript</span> and <span className='text-[22px] font-semibold text-orange-500'>Python</span>.</p>
-            <p className='mt-6'>When I'm not coding, I enjoy playing video games, photography, listening to music, and watching anime.</p>
-            <p className='mt-6'>I've been making <span className='text-[22px] font-semibold text-orange-500'>React.js</span> applications for several months now and they all can be viewed by <span className='hidden md:inline'>clicking "Projects" at the top right</span><span className='inline md:hidden'>tapping "Projects" below</span>.</p>
+            <p className='mt-6'>When I&apos;m not coding, I enjoy playing video games, photography, listening to music, and watching anime.</p>
+            <p className='mt-6'>I&apos;ve been making <span className='text-[22px] font-semibold text-orange-500'>React.js</span> applications for several months now and they all can be viewed by <span className='hidden md:inline'>clicking &quot;Projects&quot; at the top right</span><span className='inline md:hidden'>tapping &quot;Projects&quot; below</span>.</p>
           </div>
           <div className='profile-card'>
             <Image className='profile-picture' src={ProfilePic} alt="profile picture" height={200} width={200} />
