@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from 'next/link';
+import './NavBar.css';
 
 export const NavBar = () => {
     return (
         <nav className="text-white p-5 w-screen">
             <div className="flex justify-between items-center w-full">
-                <a href="/" className="ml-[7vh] text-4xl font-bold">Sean A Ramirez</a>
+                <Link id='logo' href="/" className="text-4xl font-bold">Sean A Ramirez</Link>
                 <div className='mr-[7vh] space-x-11 text-xl hidden md:flex'>
                     <Link href="/" className='p-3 hover:text-emerald-300'>About Me</Link>
                     <Link href="/projects" className='p-3 hover:text-emerald-300'>Projects</Link>

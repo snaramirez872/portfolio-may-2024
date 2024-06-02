@@ -1,0 +1,17 @@
+.project-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 8vh 30px;
+}
+
+.card {
+    background-color: rgb(24, 36, 53);
+    border-radius: 3vh;
+    width: 400px;
+}
+
+.project-details {
+    padding: 20px;
+}
